@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+    background-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #a0a0ff;
+}
+
+canvas {
+    border: 3px double black;
+}
+
+#score {
+    display: flex;
+    border-bottom: 3px double #dc591a;
+    color: #feddc8;
+    margin: 50px;
+    height: 30px;
+    width: 200px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    font-size: 20px;
+    color: #feddc8;
+    background-color: #dc591a;
+    border: 3px double #a1adff;
+    height: 65px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#restart {
+    color: #cecece;
+    font-weight: 200;
+    font-size: 7px;
+    font-variant-caps: initial;
+}
+
+#game-over {
+    padding-top: 5px;
+    color: #6f2323;
+}
+
